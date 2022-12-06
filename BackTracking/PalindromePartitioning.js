@@ -5,7 +5,8 @@
 
 // Solution use backtracking (dfs)
 // See the diagram attached as png
-// Time complexity is at least O(2^n). space is at least O(n)
+// Time complexity when we have string like aaaaaaa... is at least O(n^n). 
+// space is at least O(n^n)
 var partition = function (s) {
   const result = [];
   const partitions = [];
