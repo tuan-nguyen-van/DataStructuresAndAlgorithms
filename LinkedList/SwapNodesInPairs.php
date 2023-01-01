@@ -32,7 +32,6 @@ class Solution
             $second->next = $cur;
             $cur->next = $nextPair;
 
-            // Change the cur and the pre
             $pre = $cur;
             $cur = $cur->next;
         }
